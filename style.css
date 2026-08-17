@@ -1,0 +1,16 @@
+.header, .section1 {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+}
+
+
