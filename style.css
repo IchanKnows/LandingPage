@@ -9,8 +9,7 @@ body {
 }
 
 
-.header {
-    font: roboto;
+.header, .footer {
     justify-content: space-between;
     font-size: 24px;
 
@@ -22,11 +21,15 @@ body {
 
 }
 
+.section1 .section2, .section3 {
+    align-items: center;
+    height: 200px;
+}
+
 .section1 {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 200px;
 }
 
 .section1 * {
@@ -44,9 +47,7 @@ body {
     height: 150px;
 }
 
-/* .section2 {
-    align-items: center;
-} */
+
 
 
 
