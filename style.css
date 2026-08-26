@@ -80,6 +80,27 @@ button {
 .beans img {
     width: 150px;
     height: 150px;
+    border: #3882F6;
+    border-radius: 12px;
+}
+
+.section2 {
+   flex-direction: column; 
+}
+
+.section2 p {
+    width: 160px;
+    font-size: 14px;
+    color: #9e9e9e;
+    text-align: center;
+}
+.beans {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 
