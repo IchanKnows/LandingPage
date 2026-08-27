@@ -8,7 +8,7 @@ body {
 }
 
 
-.header, .footer, .section1, .section2, .section3 {
+.header, .footer, .section1, .section2, .section3, .section4 {
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -39,7 +39,7 @@ li {
     font-size: 18px;
 }
 
-.section1, .section2, .section3 {
+.section1, .section2, .section3, .section4 {
     /* flex-direction: column; */
     align-items: center;
     height: 350px;
@@ -103,6 +103,36 @@ button {
     height: 100%;
 }
 
+.section3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    Color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.section3 p, h3 {
+    margin: 0;
+}
+
+.section4 {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section4 h3, .section4 p {
+    width: 20%;
+}
+
+.section4 p {
+    margin-bottom: 500px;
+}
 
 
 
