@@ -8,7 +8,7 @@ body {
 }
 
 
-.header, .footer, .section1, .section2, .section3, .section4 {
+.header, .footer, .section1, .section2, .section3 {
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -39,9 +39,8 @@ li {
     font-size: 18px;
 }
 
-.section1, .section2, .section3, .section4 {
+.section1, .section2, .section3 {
     /* flex-direction: column; */
-    align-items: center;
     height: 350px;
 }
 
@@ -64,13 +63,18 @@ li {
     margin: 10px 0px;
 }
 
+.section1 button{
+    border: none;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
     padding: 5px 20px;
-    border: none;
 }
+
+
 
 .section1 img {
     width: 100%;
@@ -119,20 +123,39 @@ button {
 }
 
 .section4 {
-    flex-flow: column wrap;
-    justify-content: flex-start;
+    display: flex;
+    box-sizing: border-box;
+    justify-content:space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 10% 5%;
 }
 
-.section4 h3, .section4 p {
-    width: 20%;
+.section4 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 100px;
 }
 
-.section4 p {
-    margin-bottom: 500px;
+.section4 div * {
+    margin: 0;
 }
+.section4 button {
+    border-color: #F9FAF8;
+    border: 2px solid;
+    height: fit-content;
+}
+
+.footer {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
